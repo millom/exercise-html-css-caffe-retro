@@ -6,6 +6,8 @@
 .main_container {
   background-image: url("assets/hot.jpg");
   background-position: absolute;
+  right: 1000;
+  left: 1000;
   /* background-position: fixed; */
   background-repeat: no-repeat;
   /* background-size: cover; */
@@ -50,27 +52,69 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  /* background-color: aqua; */
+  align-items: center;
+}
+
+.main_position {
+  display: flex;
+  /* align-items: center; */
+  background-color: crimson;
+  flex-direction: column;
+  align-items: stretch;
+  width: 60%;
 }
 
 .body-header {
-  align-items: center;
+  display: flex;
+  font-size: 7.5rem;
+  justify-content: center;
   background-color: blue;
+  padding-top: 17%;
+  padding-bottom: 3.8%;
   flex: 1;
 }
 
-.body-text-1 {
-  background-color: cadetblue;
-  flex: 1;
+.body_container_1 {
+  display: flex;
+  justify-content: start;
+  margin-top: 1.8%;
+  margin-bottom: 1.8%;
 }
 
-.body-text-2 {
-  background-color: brown;
-  flex: 4;
+.body_container_2 {
+  display: flex;
+  /* align-items: end; */
+  justify-content: end;
+  margin-top: 1.8%;
+  margin-bottom: 1.8%;
+}
+
+.body-text {
+  /* background-color: cadetblue; */
+  /* align-items: center; */
+  /* vertical-align: bottom; */
+  background-color: burlywood;
+  font-family: "Poiret One", sans-serif;
+  width: 85%;
+  padding: 3.3%;
+  /* left: 0px; */
+  /* flex: 1; */
+}
+
+.body_info_container {
+  /* background-color: burlywood; */
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8%;
+  /* flex: 1; */
 }
 
 .body-info {
-  background-color: burlywood;
-  flex: 1;
+  background-color: black;
+  width: 92%;
+  padding: 3.3%;
+  /* flex: 1; */
 }
 
 .font_spirax {
