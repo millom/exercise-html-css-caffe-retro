@@ -15,7 +15,7 @@
   align-content: stretch;
 }
 
-.content_container .main_menu_header {
+.content_container .header_container {
   padding: 0.5rem;
   display: flex;
   align-items: center;
@@ -23,13 +23,13 @@
   background-color: rgba(22, 19, 22, 0.9);
 }
 
-.content_container .main_menu_header .main_menu {
+.content_container .header_container .main_menu {
   display: flex;
   align-items: center;
   gap: 5.5rem;
 }
 
-.content_container .main_menu_header .main_menu .menu_item {
+.content_container .header_container .main_menu .menu_item {
   font-family: "Spirax", sans-serif;
   font-size: 3rem;
   text-decoration: none;
