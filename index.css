@@ -42,14 +42,17 @@
   align-items: center;
 }
 
-.content_container .main_container .main_position {
+.content_container .main_container .main_layout_container {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   width: 80%;
 }
 
-.content_container .main_container .main_position .body-header-container {
+.content_container
+  .main_container
+  .main_layout_container
+  .body-header-container {
   display: flex;
   justify-content: center;
   padding-top: 17%;
@@ -58,7 +61,7 @@
 
 .content_container
   .main_container
-  .main_position
+  .main_layout_container
   .body-header-container
   .body-header-text {
   font-family: "Spirax", sans-serif;
@@ -67,21 +70,21 @@
   color: rgb(141, 0, 1);
 }
 
-.content_container .main_container .main_position .body_container_1 {
+.content_container .main_container .main_layout_container .body_container_1 {
   display: flex;
   justify-content: start;
   margin-top: 1.8%;
   margin-bottom: 1.8%;
 }
 
-.content_container .main_container .main_position .body_container_2 {
+.content_container .main_container .main_layout_container .body_container_2 {
   display: flex;
   justify-content: end;
   margin-top: 1.8%;
   margin-bottom: 1.8%;
 }
 
-.content_container .main_container .main_position .body-text {
+.content_container .main_container .main_layout_container .body-text {
   background-color: rgba(141, 0, 1, 0.8);
   font-family: "Poiret One", sans-serif;
   font-size: x-large;
@@ -90,14 +93,14 @@
   padding: 3.3%;
 }
 
-.content_container .main_container .main_position .body_info_container {
+.content_container .main_container .main_layout_container .body_info_container {
   display: flex;
   justify-content: center;
 }
 
 .content_container
   .main_container
-  .main_position
+  .main_layout_container
   .body_info_container
   .body_info_line_container {
   display: flex;
@@ -111,7 +114,7 @@
 
 .content_container
   .main_container
-  .main_position
+  .main_layout_container
   .body_info_container
   .body_info_line_container
   .body-info-name {
@@ -120,7 +123,7 @@
 
 .content_container
   .main_container
-  .main_position
+  .main_layout_container
   .body_info_container
   .body_info_line_container
   .body-info-price {
