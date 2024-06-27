@@ -33,7 +33,7 @@
 }
 
 .content_container .header_layout .header_nav_container .header_nav_item {
-  font-family: "Spirax", sans-serif;
+  /* font-family: "Spirax", sans-serif; */
   font-size: 3rem;
   text-decoration: none;
 }
@@ -64,7 +64,7 @@
   .main_layout
   .main_header_layout
   .main_header_text {
-  font-family: "Spirax", sans-serif;
+  /* font-family: "Spirax", sans-serif; */
   font-size: 7.5rem;
   font-weight: bold;
   color: rgb(141, 0, 1);
@@ -86,7 +86,7 @@
 
 .content_container .main_container .main_layout .main_article {
   background-color: rgba(141, 0, 1, 0.8);
-  font-family: "Poiret One", sans-serif;
+  /* font-family: "Poiret One", sans-serif; */
   font-size: x-large;
   text-align: center;
   width: 75%;
@@ -96,6 +96,7 @@
 .content_container .main_container .main_layout .main_info_article_layout {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .content_container
@@ -117,6 +118,16 @@
   .main_layout
   .main_info_article_layout
   .main_info_article_container
+  .main_info_layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_container
+  .main_container
+  .main_layout
+  .main_info_article_layout
+  .main_info_article_container
   .text_align_left {
   text-align: start;
 }
@@ -130,10 +141,10 @@
   text-align: end;
 }
 
-.font_spirax {
+.content_container .font_spirax {
   font-family: "Spirax", sans-serif;
 }
 
-.font_poiret_one {
+.content_container .main_container .main_layout .font_poiret_one {
   font-family: "Poiret One", sans-serif;
 }
