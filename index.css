@@ -70,18 +70,18 @@
   color: rgb(141, 0, 1);
 }
 
-.content_container .main_container .main_layout_container .body_container_1 {
+.content_container .main_container .main_layout_container .main_article_layout {
   display: flex;
-  justify-content: start;
   margin-top: 1.8%;
   margin-bottom: 1.8%;
 }
 
-.content_container .main_container .main_layout_container .body_container_2 {
-  display: flex;
+.content_container .main_container .main_layout_container .layout_left {
+  justify-content: start;
+}
+
+.content_container .main_container .main_layout_container .layout_right {
   justify-content: end;
-  margin-top: 1.8%;
-  margin-bottom: 1.8%;
 }
 
 .content_container .main_container .main_layout_container .body-text {
