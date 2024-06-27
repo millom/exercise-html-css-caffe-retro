@@ -99,7 +99,7 @@
   .main_container
   .main_layout
   .main_info_article_layout
-  .body_info_line_container {
+  .main_info_article_container {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -113,7 +113,7 @@
   .main_container
   .main_layout
   .main_info_article_layout
-  .body_info_line_container
+  .main_info_article_container
   .body-info-name {
   text-align: start;
 }
@@ -122,7 +122,7 @@
   .main_container
   .main_layout
   .main_info_article_layout
-  .body_info_line_container
+  .main_info_article_container
   .body-info-price {
   text-align: end;
 }
