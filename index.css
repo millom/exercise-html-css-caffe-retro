@@ -23,13 +23,13 @@
   background-color: rgba(22, 19, 22, 0.9);
 }
 
-.content_container .header_container .main_menu {
+.content_container .header_container .header_nav_container {
   display: flex;
   align-items: center;
   gap: 5.5rem;
 }
 
-.content_container .header_container .main_menu .menu_item {
+.content_container .header_container .header_nav_container .menu_item {
   font-family: "Spirax", sans-serif;
   font-size: 3rem;
   text-decoration: none;
