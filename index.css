@@ -90,7 +90,7 @@
   padding: 3.3%;
 }
 
-.content_container .main_container .main_layout .main_info_layout {
+.content_container .main_container .main_layout .main_info_article_layout {
   display: flex;
   justify-content: center;
 }
@@ -98,7 +98,7 @@
 .content_container
   .main_container
   .main_layout
-  .main_info_layout
+  .main_info_article_layout
   .body_info_line_container {
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@
 .content_container
   .main_container
   .main_layout
-  .main_info_layout
+  .main_info_article_layout
   .body_info_line_container
   .body-info-name {
   text-align: start;
@@ -121,7 +121,7 @@
 .content_container
   .main_container
   .main_layout
-  .main_info_layout
+  .main_info_article_layout
   .body_info_line_container
   .body-info-price {
   text-align: end;
