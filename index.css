@@ -15,7 +15,7 @@
   align-content: stretch;
 }
 
-.content_container .header_container {
+.content_container .header_layout {
   padding: 0.5rem;
   display: flex;
   align-items: center;
@@ -23,13 +23,13 @@
   background-color: rgba(22, 19, 22, 0.9);
 }
 
-.content_container .header_container .header_nav_container {
+.content_container .header_layout .header_nav_container {
   display: flex;
   align-items: center;
   gap: 5.5rem;
 }
 
-.content_container .header_container .header_nav_container .header_nav_item {
+.content_container .header_layout .header_nav_container .header_nav_item {
   font-family: "Spirax", sans-serif;
   font-size: 3rem;
   text-decoration: none;
@@ -49,7 +49,7 @@
   width: 80%;
 }
 
-.content_container .main_container .main_layout .main_header_container {
+.content_container .main_container .main_layout .main_header_layout {
   display: flex;
   justify-content: center;
   padding-top: 17%;
@@ -59,7 +59,7 @@
 .content_container
   .main_container
   .main_layout
-  .main_header_container
+  .main_header_layout
   .main_header_text {
   font-family: "Spirax", sans-serif;
   font-size: 7.5rem;
