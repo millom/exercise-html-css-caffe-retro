@@ -59,20 +59,25 @@
 .main_position {
   display: flex;
   /* align-items: center; */
-  background-color: crimson;
+  /* background-color: crimson; */
   flex-direction: column;
   align-items: stretch;
-  width: 60%;
+  width: 80%;
 }
 
-.body-header {
+.body-header-container {
   display: flex;
-  font-size: 7.5rem;
   justify-content: center;
-  background-color: blue;
+  /* background-color: blue; */
   padding-top: 17%;
   padding-bottom: 3.8%;
-  flex: 1;
+  /* flex: 1; */
+}
+
+.body-header-text {
+  font-size: 7.5rem;
+  font-weight: bold;
+  color: rgb(141, 0, 1);
 }
 
 .body_container_1 {
@@ -94,9 +99,11 @@
   /* background-color: cadetblue; */
   /* align-items: center; */
   /* vertical-align: bottom; */
-  background-color: burlywood;
+  background-color: rgba(141, 0, 1, 0.8);
   font-family: "Poiret One", sans-serif;
-  width: 85%;
+  font-size: xx-large;
+  text-align: center;
+  width: 75%;
   padding: 3.3%;
   /* left: 0px; */
   /* flex: 1; */
@@ -105,16 +112,49 @@
 .body_info_container {
   /* background-color: burlywood; */
   display: flex;
+  /* flex-direction: column; */
+  /* align-content: center; */
   justify-content: center;
-  margin-top: 1.8%;
+  /* background-color: black; */
+  /* margin-top: 1.8%; */
+  /* padding: 3.3%; */
+  /* width: 85%; */
   /* flex: 1; */
 }
 
-.body-info {
+.body_info_line_container {
+  /* background-color: burlywood; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* justify-content: center; */
   background-color: black;
-  width: 92%;
+  margin-top: 1.8%;
+  padding: 3.3% 11%;
+  width: 60%;
+  /* flex: 1; */
+}
+
+/* .body-info {
+  background-color: black;
+  width: 85%;
   padding: 3.3%;
   /* flex: 1; */
+/*} */
+
+.body_info_line {
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  justify-content: space-between;
+}
+
+.body-info-name {
+  text-align: start;
+}
+
+.body-info-price {
+  text-align: end;
 }
 
 .font_spirax {
