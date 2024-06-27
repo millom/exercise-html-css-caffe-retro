@@ -81,7 +81,7 @@
   justify-content: end;
 }
 
-.content_container .main_container .main_layout .body-text {
+.content_container .main_container .main_layout .body_article {
   background-color: rgba(141, 0, 1, 0.8);
   font-family: "Poiret One", sans-serif;
   font-size: x-large;
