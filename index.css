@@ -30,8 +30,6 @@
 
 .body .background_layout {
   background-position: absolute;
-  /* right: 1000; */
-  /* left: 1000; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -41,13 +39,10 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  /* align-content: center;
-  justify-content: center; */
   height: 100vh;
 }
 
 .body .header_layout {
-  /* padding: 0.5rem; */
   position: fixed;
   top: 0px;
   right: 0px;
@@ -63,7 +58,6 @@
 
 .body .header_layout .header_nav_container {
   display: flex;
-  /* align-items: center; */
   gap: 5.5rem;
 }
 
@@ -91,7 +85,6 @@
   justify-content: center;
   padding-top: 12%;
   padding-bottom: 2%;
-  /* position: ; */
 }
 
 .content_container
@@ -99,7 +92,6 @@
   .main_layout
   .main_header_layout
   .main_header_text {
-  /* font-family: "Spirax", sans-serif; */
   font-size: 7.5rem;
   font-weight: bold;
   color: rgb(141, 0, 1);
@@ -121,7 +113,6 @@
 
 .content_container .main_container .main_layout .main_article {
   background-color: rgba(141, 0, 1, 0.8);
-  /* font-family: "Poiret One", sans-serif; */
   font-size: x-large;
   text-align: center;
   width: 75%;
@@ -131,7 +122,6 @@
 .content_container .main_container .main_layout .main_info_article_layout {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .content_container
