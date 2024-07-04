@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+.body .space {
+  background-color: rgb(141, 0, 1);
+  height: 1rem;
+}
+
 .background_image {
   background-image: url("assets/hot.jpg");
   background-position: absolute;
