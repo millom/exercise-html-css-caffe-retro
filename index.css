@@ -8,8 +8,19 @@
   height: 1rem;
 }
 
-.background_image {
+.body .background_hot {
   background-image: url("assets/hot.jpg");
+}
+
+.body .background_juicy {
+  background-image: url("assets/juicy.jpg");
+}
+
+.body .background_cosy {
+  background-image: url("assets/cosy.jpg");
+}
+
+.body .background_layout {
   background-position: absolute;
   /* right: 1000; */
   /* left: 1000; */
